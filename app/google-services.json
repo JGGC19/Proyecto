@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "492947213558",
+    "project_id": "proyecto-b242c",
+    "storage_bucket": "proyecto-b242c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:492947213558:android:1adbaf281a6fe25bf9b0d7",
+        "android_client_info": {
+          "package_name": "mx.tecnm.cdhidalgo.proyecto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "492947213558-tuepumgp2n5thm066addtnnc546771er.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQDJoJCATdpcwGfkWkKMCgQlLfpNtwevo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "492947213558-tuepumgp2n5thm066addtnnc546771er.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".Registro">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/ivLogo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo_alert_rojo01"
+            android:scaleX=".6"
+            android:scaleY=".6"
+            android:layout_marginTop="-280dp"
+            android:layout_marginBottom="-280dp"
+            android:transitionName="logo_transicion"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/txtTitulo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:hint="Titulo"
+            app:boxStrokeColor="#1b4a56"
+            app:hintTextColor="#1b4a56">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/txtDescripcionUno"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:hint="Descripcion"
+            app:boxStrokeColor="#1b4a56"
+            app:hintTextColor="#1b4a56">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btnRegistrarAviso"
+                android:layout_width="wrap_content"
+                android:layout_height="65dp"
+                android:text="Agregar Aviso"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="#ff3d58"
+                app:cornerRadius="100dp"
+                app:icon="@drawable/ic_baseline_add_24"
+                app:iconSize="30dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"/>
+
+            <Button
+                android:id="@+id/btnEstoyRegistrado"
+                android:layout_width="wrap_content"
+                android:layout_height="65dp"
+                android:text="Volver..."
+                android:textAllCaps="false"
+                android:textStyle="bold"
+                android:textColor="#c42217"
+                android:background="#00000000"
+                android:layout_marginTop="1dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/btnRegistrarAviso"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</ScrollView>
